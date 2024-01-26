@@ -1,0 +1,31 @@
+.list-item {
+  text-decoration: none;
+}
+
+.trending-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-img {
+    width: 50%;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .trending-img {
+    width: 35%;
+  }
+}
+
+.trending-context {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.trending-postview {
+  display: flex;
+  align-items: center;
+}

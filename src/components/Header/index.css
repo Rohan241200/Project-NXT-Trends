@@ -1,0 +1,46 @@
+.nxt-watch-link {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .nxt-watch-link {
+    width: 200px;
+  }
+}
+
+.logout-button-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  cursor: pointer;
+  outline: none;
+}
+
+.cancel {
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  color: #475569;
+}
+
+.confirm {
+  background-color: #4f46e5;
+  border: none;
+  color: #ffffff;
+}

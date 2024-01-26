@@ -1,0 +1,29 @@
+.nxt-watch-logo {
+  width: 50%;
+  margin: 10%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+}
+
+.user-input-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.checkbox-card {
+  display: flex;
+  align-items: center;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+}
